@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<%- include ('layout') %>
+<script type="text/javascript">
+    function acessar() {
+        document.getElementById("login").click(); 
+       
+    }
+
+  
+</script>
+<html>
+
+<body onload="acessar()">
+    <img id="login" src="https://cdn.editorasaraiva.com.br/bibliotecadigital/img/btbd_h200.png" style="cursor: pointer"
+        onClick="readerAccess('fama_iesa_27012020_2038353', ':CODIGO_ALUNO', 'fama_iesa_27012020_2038353')">
+
+</body>
+<%- include ('scripts') %>
+
+</html>
