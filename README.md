@@ -1,3 +1,4 @@
-# Sistema de Autenticação
+# Autentição de Usuário
 
-Sistema basico para autencicação usando Node.js
+Sistema basico para autencicação de usuário usando Node.js e passport;
+Senha encriptografada usando BCrypt
